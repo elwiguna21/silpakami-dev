@@ -105,7 +105,7 @@
 
 
             <div class="container home-content">
-                <h1>Selamat Datang di SILPaKAMI</h1>
+                <h1>Selamat Datang di SILPaKAMI !</h1>
                 <h3 style="color: #00acac;">Sistem Informasi Layanan Persandian dan Keamanan Informasi</h3>
                 <h3>Kabupaten Sumedang</h3>
                 <p>
@@ -326,7 +326,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/user.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/pa haris.jpg')}}" alt="Mia Donovan" />
                             </div>
                             <div class="info">
                                 <h3 class="name">Haris Iskandar</h3>
@@ -403,7 +403,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/user.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/roza.jpg')}}" alt="Mia Donovan" />
                             </div>
                             <div class="info">
                                 <h3 class="name">Roza Hidayat</h3>
