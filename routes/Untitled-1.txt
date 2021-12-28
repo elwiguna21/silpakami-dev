@@ -1,0 +1,15 @@
+        
+        
+'nama',
+        'email',
+        'password',
+        'nip',
+        'nik',
+        'golongan_id',
+        'jabatan_id',
+        'hp',
+        'jenis_kelamin',
+        'instansi_id',
+        'unit_kerja_id',
+        'password',
+        'permission'
