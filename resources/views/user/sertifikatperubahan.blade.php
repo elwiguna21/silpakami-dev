@@ -114,7 +114,7 @@
       <div class="modal-body">
         <h4>Ikuti Langkah Berikut</h4>
         <p>1. Buat Surat Permohonan perubahan data SE melalui e-office ditujukan ke Diskominfosanditik </p>
-        <p> - Contoh Surat Permohonan perubahan data SE <a href="/file/perubahan.pdf">
+        <p> - Contoh Surat Permohonan perubahan data SE <a href="/file/Form Perubahan Data Sertifikat Elektronik.doc">
             [Download Dokumen]</a></p>
         <p>2. Download Surat yang telah di tandatangani oleh kepala SKPD </p>
         <p>3. Lengkapi form berikut dan upload surat yang telah di download </p>

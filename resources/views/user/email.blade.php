@@ -118,7 +118,7 @@
         <div class="modal-body">
           <h4>Ikuti Langkah Berikut</h4>
           <p>1. Buat Surat Permohonan pembuatan email melalui e-office ditujukan ke Diskominfosanditik </p>
-          <p> - Contoh Surat Permohonan pembuatan email<a href="/file/Surat Pembuatan E-mail.pdf">
+          <p> - Contoh Surat Permohonan pembuatan email<a href="/file/Surat Pembuatan E-mail.doc">
               [Download Dokumen]</a></p>
           <p>2. Download Surat yang telah di tandatangani oleh kepala SKPD </p>
           <p>3. Lengkapi form berikut dan upload surat yang telah di download </p>
