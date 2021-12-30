@@ -283,7 +283,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/pa mamat 2.jpg')}}" alt="Ryan Teller" />
+                                <img src="{{asset('home/image/user/pa mamat 2.jpg')}}" />
                             </div>
                             <div class="info">
                                 <h3 class="name">Mamat Rohimat</h3>
@@ -306,7 +306,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/agus ramdan.jpg')}}" alt="Jonny Cash" />
+                                <img src="{{asset('home/image/user/agus ramdan.jpg')}}"/>
                             </div>
                             <div class="info">
                                 <h3 class="name">Agus Ramdan S.</h3>
@@ -326,7 +326,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/pa haris.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/pa haris.jpg')}}"/>
                             </div>
                             <div class="info">
                                 <h3 class="name">Haris Iskandar</h3>
@@ -344,7 +344,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/wine.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/wine.jpg')}}"/>
                             </div>
                             <div class="info">
                                 <h3 class="name">Wine R Sukmadewi</h3>
@@ -367,7 +367,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/hendri.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/hendri.jpg')}}" />
                             </div>
                             <div class="info">
                                 <h3 class="name">Hendri Wiguna</h3>
@@ -385,7 +385,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/alfan.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/alfan.jpg')}}" />
                             </div>
                             <div class="info">
                                 <h3 class="name">Alfan Fathurohman</h3>
@@ -403,7 +403,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/roza.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/roza.jpg')}}" />
                             </div>
                             <div class="info">
                                 <h3 class="name">Roza Hidayat</h3>
@@ -426,7 +426,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/user.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/herry.jpg')}}" />
                             </div>
                             <div class="info">
                                 <h3 class="name">Herry Rohaeli</h3>
@@ -444,7 +444,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/user.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/wawan.jpg')}}" />
                             </div>
                             <div class="info">
                                 <h3 class="name">Wawan</h3>
