@@ -462,7 +462,7 @@
 
                         <div class="team">
                             <div class="image" data-animation="true" data-animation-type="animate__flipInX">
-                                <img src="{{asset('home/image/user/user.jpg')}}" alt="Mia Donovan" />
+                                <img src="{{asset('home/image/user/yeri.jpg')}}" alt="Mia Donovan" />
                             </div>
                             <div class="info">
                                 <h3 class="name">Yeri Siti Jamilah</h3>
