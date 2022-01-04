@@ -30,10 +30,12 @@ class sertPerubahanController extends Controller
 
                 $insert = new Perubahan_se;
                 $insert->user_id = $id;
-                $insert->instansi_lama = $request->dinasbaru;
+                // $insert->instansi_lama = $request->dinasbaru;
+                $insert->instansi_lama = $request->dinaslama;
                 $insert->nama_pemohon = $request->nama_pemohon;
                 $insert->nip = $request->nip;
-                $insert->instansi_baru = $request->dinaslama;
+                // $insert->instansi_baru = $request->dinaslama;
+                $insert->instansi_baru = $request->dinasbaru;
                 $insert->jabatan_lama = $request->jablama;
                 $insert->jabatan_baru = $request->jabbaru;
                 $insert->path = "/doc/perubahan/".$name;
