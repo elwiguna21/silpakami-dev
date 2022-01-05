@@ -9,7 +9,7 @@ class Log extends Model
 {
     //
 
-    public function post($id, $activity, $category, $description)
+    public function post($id, $activity, $category, $description, $status)
     {
 
         try {
@@ -18,6 +18,8 @@ class Log extends Model
             $logs->activity = $activity;
             $logs->category = $category;
             $logs->description = $description;
+            $logs->status = $status;
+
             $logs->save();
         } catch (Exception $e) {
     		die($e->getMessage());

@@ -1025,6 +1025,311 @@
 
 		</div> 
 
+		<div class="col-xl-6">
+
+			<div class="card mb-3">
+
+				<div class="card-body">
+
+					<div class="d-flex fw-bold small mb-3">
+						<span class="flex-grow-1">ACTIVITY LOG ERROR USER</span>
+						<a href="#" data-toggle="card-expand" class="text-white text-opacity-50 text-decoration-none"><i
+								class="bi bi-fullscreen"></i></a>
+					</div>
+
+
+					<div class="table-responsive">
+						<table class="table table-striped table-borderless mb-2px small text-nowrap">
+							<tbody>
+								@foreach($logs_user_error as $key => $log_user)
+
+								<?php
+								$awal  = strtotime($log_user->created_at); 
+								$akhir = strtotime(now()); 
+								$diff  = $akhir - $awal;
+								$jam   = floor($diff / (60 * 60));
+								$menit = $diff - $jam * (60 * 60);
+								$waktu =  $jam .  ' jam ' . floor($menit / 60) . ' menit yang lalu';
+								?>
+								<tr>
+									<td>
+										<span class="d-flex align-items-center">
+											<i class="bi bi-circle-fill fs-6px text-theme me-2"></i>
+											{{$log_user->nama}} : {{$log_user->description}}
+										</span>
+									</td>
+									<td><small>{{$log_user->created_at}}</small></td>
+									<td>
+										<span class="badge d-block bg-theme text-theme-900 rounded-0 pt-5px w-100px"
+											style="min-height: 18px">{{$log_user->name}}</span>
+									</td>
+									<td><a href="#" class="text-decoration-none text-white"><i
+												class="bi bi-search"></i></a></td>
+								</tr>
+								@endforeach
+
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+
+
+				<div class="card-arrow">
+					<div class="card-arrow-top-left"></div>
+					<div class="card-arrow-top-right"></div>
+					<div class="card-arrow-bottom-left"></div>
+					<div class="card-arrow-bottom-right"></div>
+				</div>
+
+			</div>
+
+		</div> 
+
+		 <div class="col-xl-6">
+
+			<div class="card mb-3">
+
+				<div class="card-body">
+
+					<div class="d-flex fw-bold small mb-3">
+						<span class="flex-grow-1">ACTIVITY LOG ERROR</span>
+						<a href="#" data-toggle="card-expand" class="text-white text-opacity-50 text-decoration-none"><i
+								class="bi bi-fullscreen"></i></a>
+					</div>
+
+
+					<div class="table-responsive">
+						<table class="table table-striped table-borderless mb-2px small text-nowrap">
+							<tbody>
+								@foreach($logs_error as $key => $log)
+
+								<?php
+								$awal  = strtotime($log->created_at); 
+								$akhir = strtotime(now()); 
+								$diff  = $akhir - $awal;
+								$jam   = floor($diff / (60 * 60));
+								$menit = $diff - $jam * (60 * 60);
+								$waktu =  $jam .  ' jam ' . floor($menit / 60) . ' menit yang lalu';
+								?>
+								<tr>
+									<td>
+										<span class="d-flex align-items-center">
+											<i class="bi bi-circle-fill fs-6px text-theme me-2"></i>
+											{{$log->nama}} : {{$log->description}}
+										</span>
+									</td>
+									<td><small>{{$log->created_at}}</small></td>
+									<td>
+										<span class="badge d-block bg-theme text-theme-900 rounded-0 pt-5px w-100px"
+											style="min-height: 18px">{{$log->name}}</span>
+									</td>
+									<td><a href="#" class="text-decoration-none text-white"><i
+												class="bi bi-search"></i></a></td>
+								</tr>
+								@endforeach
+
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+
+
+				<div class="card-arrow">
+					<div class="card-arrow-top-left"></div>
+					<div class="card-arrow-top-right"></div>
+					<div class="card-arrow-bottom-left"></div>
+					<div class="card-arrow-bottom-right"></div>
+				</div>
+
+			</div>
+
+		</div> 
+
+		<div class="col-xl-6">
+
+			<div class="card mb-3">
+
+				<div class="card-body">
+
+					<div class="d-flex fw-bold small mb-3">
+						<span class="flex-grow-1">ACTIVITY LOG ERROR TEKNISI JARINGAN</span>
+						<a href="#" data-toggle="card-expand" class="text-white text-opacity-50 text-decoration-none"><i
+								class="bi bi-fullscreen"></i></a>
+					</div>
+
+
+					<div class="table-responsive">
+						<table class="table table-striped table-borderless mb-2px small text-nowrap">
+							<tbody>
+								@foreach($logs_tj_error as $key => $log_tj)
+
+								<?php
+								$awal  = strtotime($log_tj->created_at); 
+								$akhir = strtotime(now()); 
+								$diff  = $akhir - $awal;
+								$jam   = floor($diff / (60 * 60));
+								$menit = $diff - $jam * (60 * 60);
+								$waktu =  $jam .  ' jam ' . floor($menit / 60) . ' menit yang lalu';
+								?>
+								<tr>
+									<td>
+										<span class="d-flex align-items-center">
+											<i class="bi bi-circle-fill fs-6px text-theme me-2"></i>
+											{{$log_tj->nama}} : {{$log_tj->description}}
+										</span>
+									</td>
+									<td><small>{{$log_tj->created_at}}</small></td>
+									<td>
+										<span class="badge d-block bg-theme text-theme-900 rounded-0 pt-5px w-100px"
+											style="min-height: 18px">{{$log_tj->name}}</span>
+									</td>
+									<td><a href="#" class="text-decoration-none text-white"><i
+												class="bi bi-search"></i></a></td>
+								</tr>
+								@endforeach
+
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+
+
+				<div class="card-arrow">
+					<div class="card-arrow-top-left"></div>
+					<div class="card-arrow-top-right"></div>
+					<div class="card-arrow-bottom-left"></div>
+					<div class="card-arrow-bottom-right"></div>
+				</div>
+
+			</div>
+
+		</div> 
+
+		<div class="col-xl-6">
+
+			<div class="card mb-3">
+
+				<div class="card-body">
+
+					<div class="d-flex fw-bold small mb-3">
+						<span class="flex-grow-1">ACTIVITY LOG TEKNISI APLIKASI</span>
+						<a href="#" data-toggle="card-expand" class="text-white text-opacity-50 text-decoration-none"><i
+								class="bi bi-fullscreen"></i></a>
+					</div>
+
+
+					<div class="table-responsive">
+						<table class="table table-striped table-borderless mb-2px small text-nowrap">
+							<tbody>
+								@foreach($logs_ta_error as $key => $log_ta)
+
+								<?php
+								$awal  = strtotime($log_ta->created_at); 
+								$akhir = strtotime(now()); 
+								$diff  = $akhir - $awal;
+								$jam   = floor($diff / (60 * 60));
+								$menit = $diff - $jam * (60 * 60);
+								$waktu =  $jam .  ' jam ' . floor($menit / 60) . ' menit yang lalu';
+								?>
+								<tr>
+									<td>
+										<span class="d-flex align-items-center">
+											<i class="bi bi-circle-fill fs-6px text-theme me-2"></i>
+											{{$log_ta->nama}} : {{$log_ta->activity}}
+										</span>
+									</td>
+									<td><small>{{$log_ta->created_at}}</small></td>
+									<td>
+										<span class="badge d-block bg-theme text-theme-900 rounded-0 pt-5px w-100px"
+											style="min-height: 18px">{{$log_ta->name}}</span>
+									</td>
+									<td><a href="#" class="text-decoration-none text-white"><i
+												class="bi bi-search"></i></a></td>
+								</tr>
+								@endforeach
+
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+
+
+				<div class="card-arrow">
+					<div class="card-arrow-top-left"></div>
+					<div class="card-arrow-top-right"></div>
+					<div class="card-arrow-bottom-left"></div>
+					<div class="card-arrow-bottom-right"></div>
+				</div>
+
+			</div>
+
+		</div> 
+
+		<div class="col-xl-12">
+
+			<div class="card mb-3">
+
+				<div class="card-body">
+
+					<div class="d-flex fw-bold small mb-3">
+						<span class="flex-grow-1">ACTIVITY LOG ANONYMOUS</span>
+						<a href="#" data-toggle="card-expand" class="text-white text-opacity-50 text-decoration-none"><i
+								class="bi bi-fullscreen"></i></a>
+					</div>
+
+
+					<div class="table-responsive">
+						<table class="table table-striped table-borderless mb-2px small text-nowrap">
+							<tbody>
+								@foreach($anonymous as $key => $log_anonymous)
+
+								<?php
+								$awal  = strtotime($log_anonymous->created_at); 
+								$akhir = strtotime(now()); 
+								$diff  = $akhir - $awal;
+								$jam   = floor($diff / (60 * 60));
+								$menit = $diff - $jam * (60 * 60);
+								$waktu =  $jam .  ' jam ' . floor($menit / 60) . ' menit yang lalu';
+								?>
+								<tr>
+									<td>
+										<span class="d-flex align-items-center">
+											<i class="bi bi-circle-fill fs-6px text-theme me-2"></i>
+											{{$log_anonymous->activity}} : {{$log_anonymous->description}}
+										</span>
+									</td>
+									<td><small>{{$log_anonymous->created_at}}</small></td>
+									<td>
+										<span class="badge d-block bg-theme text-theme-900 rounded-0 pt-5px w-100px"
+											style="min-height: 18px">STRANGER</span>
+									</td>
+									<td><a href="#" class="text-decoration-none text-white"><i
+												class="bi bi-search"></i></a></td>
+								</tr>
+								@endforeach
+
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+
+
+				<div class="card-arrow">
+					<div class="card-arrow-top-left"></div>
+					<div class="card-arrow-top-right"></div>
+					<div class="card-arrow-bottom-left"></div>
+					<div class="card-arrow-bottom-right"></div>
+				</div>
+
+			</div>
+
+		</div> 
+
 	</div>
 
 	

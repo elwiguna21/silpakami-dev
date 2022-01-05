@@ -86,6 +86,7 @@ class adminController extends Controller
             ->join('roles', 'roles.id', '=', 'role_users.role_id')
             ->select('users.nama', 'roles.name', 'logs.activity', 'logs.created_at')
             ->where('roles.id', '=', '1')
+            ->where('logs.status', '=', '1')
             ->orderby('logs.created_at', 'desc')
             ->limit(10)
             ->get();
@@ -96,6 +97,7 @@ class adminController extends Controller
             ->join('roles', 'roles.id', '=', 'role_users.role_id')
             ->select('users.nama', 'roles.name', 'logs.activity', 'logs.created_at')
             ->where('roles.id', '=', '2')
+            ->where('logs.status', '=', '1')
             ->orderby('logs.created_at', 'desc')
             ->limit(10)
             ->get();
@@ -106,6 +108,7 @@ class adminController extends Controller
             ->join('roles', 'roles.id', '=', 'role_users.role_id')
             ->select('users.nama', 'roles.name', 'logs.activity', 'logs.created_at')
             ->where('roles.id', '=', '3')
+            ->where('logs.status', '=', '1')
             ->orderby('logs.created_at', 'desc')
             ->limit(10)
             ->get();
@@ -116,16 +119,70 @@ class adminController extends Controller
             ->join('roles', 'roles.id', '=', 'role_users.role_id')
             ->select('users.nama', 'roles.name', 'logs.activity', 'logs.created_at')
             ->where('roles.id', '=', '4')
+            ->where('logs.status', '=', '1')
             ->orderby('logs.created_at', 'desc')
             ->limit(10)
             ->get();
 
+            
+        $logs_error = DB::table('users')
+        ->join('logs', 'users.id', '=', 'logs.user_id')
+        ->join('role_users', 'users.id', '=', 'role_users.user_id')
+        ->join('roles', 'roles.id', '=', 'role_users.role_id')
+        ->select('users.nama', 'roles.name', 'logs.activity', 'logs.created_at', 'logs.description')
+        ->where('roles.id', '=', '1')
+        ->where('logs.status', '=', '0')
+        ->orderby('logs.created_at', 'desc')
+        ->limit(10)
+        ->get();
+
+    $logs_user_error = DB::table('users')
+        ->join('logs', 'users.id', '=', 'logs.user_id')
+        ->join('role_users', 'users.id', '=', 'role_users.user_id')
+        ->join('roles', 'roles.id', '=', 'role_users.role_id')
+        ->select('users.nama', 'roles.name', 'logs.activity', 'logs.created_at', 'logs.description')
+        ->where('roles.id', '=', '2')
+        ->where('logs.status', '=', '0')
+        ->orderby('logs.created_at', 'desc')
+        ->limit(10)
+        ->get();
+
+        $logs_ta_error = DB::table('users')
+        ->join('logs', 'users.id', '=', 'logs.user_id')
+        ->join('role_users', 'users.id', '=', 'role_users.user_id')
+        ->join('roles', 'roles.id', '=', 'role_users.role_id')
+        ->select('users.nama', 'roles.name', 'logs.activity', 'logs.created_at', 'logs.description')
+        ->where('roles.id', '=', '3')
+        ->where('logs.status', '=', '0')
+        ->orderby('logs.created_at', 'desc')
+        ->limit(10)
+        ->get();
+
+        $logs_tj_error = DB::table('users')
+        ->join('logs', 'users.id', '=', 'logs.user_id')
+        ->join('role_users', 'users.id', '=', 'role_users.user_id')
+        ->join('roles', 'roles.id', '=', 'role_users.role_id')
+        ->select('users.nama', 'roles.name', 'logs.activity', 'logs.created_at', 'logs.description')
+        ->where('roles.id', '=', '4')
+        ->where('logs.status', '=', '0')
+        ->orderby('logs.created_at', 'desc')
+        ->limit(10)
+        ->get();
+
+
+        $anonymous = DB::table('logs')
+        ->select('logs.activity', 'logs.created_at', 'logs.description')
+        ->where('logs.user_id', '=', '0')
+        ->orderby('logs.created_at', 'desc')
+        ->limit(10)
+        ->get();
 
         return view('admin.index', compact([
             'pengajuanDay', 'pencabutanDay', 'perubahanDay', 'jammingDay', 'insidenDay', 'emailDay', 'pentestDay',
             'pengajuanAll', 'pencabutanAll', 'perubahanAll', 'jammingAll', 'insidenAll', 'emailAll', 'pentestAll',
             'pengajuanMonth', 'pencabutanMonth', 'perubahanMonth', 'jammingMonth', 'insidenMonth', 'emailMonth', 'pentestMonth',
-            'logs', 'logs_user', 'logs_ta', 'logs_tj'
+            'logs', 'logs_user', 'logs_ta', 'logs_tj', 'logs_error', 'logs_user_error', 'logs_ta_error', 'logs_tj_error', 'anonymous' 
+
         ]));
     }
 }

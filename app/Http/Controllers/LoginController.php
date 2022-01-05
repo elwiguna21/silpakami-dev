@@ -55,13 +55,13 @@ class LoginController extends Controller
             }
 
             if ($slug == 'admin') {
-                $this->_log->post($id, $activity,  $category, $decription);
+                $this->_log->post($id, $activity,  $category, $decription, 1);
                 return redirect('/admin');
             } elseif ($slug == 'user') {
-                $this->_log->post($id, $activity,  $category, $decription);
+                $this->_log->post($id, $activity,  $category, $decription, 1);
                 return redirect('/user');
             } elseif ($slug == 'teknisi_aplikasi' or $slug == 'teknisi_jaringan') {
-                $this->_log->post($id, $activity,  $category, $decription);
+                $this->_log->post($id, $activity,  $category, $decription, 1);
                 return redirect('/teknisi');
             } elseif ($slug == '') {
                 if($id != 0){
@@ -69,7 +69,7 @@ class LoginController extends Controller
                 }else{
                     $decription = 'Username ' .$request->nip .' tidak terdaftar, dengan IP ADDRESS :' .$_SERVER['REMOTE_ADDR'];
                 }
-                $this->_log->post($id, $activity,  $category, $decription);
+                $this->_log->post($id, $activity,  $category, $decription, 0);
                 return redirect()->back()->with(['error' => 'nip atau password salah.']);
             } else {
                 if($id != 0){
@@ -77,7 +77,7 @@ class LoginController extends Controller
                 }else{
                     $decription = 'Username ' .$request->nip .' tidak terdaftar, dengan IP ADDRESS :' .$_SERVER['REMOTE_ADDR'];
                 }
-                $this->_log->post($id, $activity,  $category, $decription);
+                $this->_log->post($id, $activity,  $category, $decription, 0);
                 return redirect()->back()->with(['error' => 'nip atau password salah.']);
             }
         } catch (ThrottlingException $e) {
