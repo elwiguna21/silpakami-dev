@@ -1215,7 +1215,7 @@
 				<div class="card-body">
 
 					<div class="d-flex fw-bold small mb-3">
-						<span class="flex-grow-1">ACTIVITY LOG TEKNISI APLIKASI</span>
+						<span class="flex-grow-1">ACTIVITY LOG ERROR TEKNISI APLIKASI</span>
 						<a href="#" data-toggle="card-expand" class="text-white text-opacity-50 text-decoration-none"><i
 								class="bi bi-fullscreen"></i></a>
 					</div>
