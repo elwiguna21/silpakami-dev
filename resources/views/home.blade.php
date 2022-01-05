@@ -310,7 +310,7 @@
                             </div>
                             <div class="info">
                                 <h3 class="name">Agus Ramdan S.</h3>
-                                <div class="title text-primary">KEPALA SEKSI TATA KELOLA PERSANDIAN</div>
+                                <div class="title text-primary">SANDIMAN AHLI MUDA</div>
                                 <div class="social">
                                     <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                     <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
@@ -330,7 +330,7 @@
                             </div>
                             <div class="info">
                                 <h3 class="name">Haris Iskandar</h3>
-                                <div class="title text-primary">KEPALA SEKSI OPERASIONAL PENGAMANAN PERSANDIAN</div>
+                                <div class="title text-primary">SANDIMAN AHLI MUDA</div>
                                 <div class="social">
                                     <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                     <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
@@ -371,7 +371,7 @@
                             </div>
                             <div class="info">
                                 <h3 class="name">Hendri Wiguna</h3>
-                                <div class="title text-primary">PRANATA KOMPUTER</div>
+                                <div class="title text-primary">PRANATA KOMPUTER AHLI PERTAMA</div>
                                 <div class="social">
                                     <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                     <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
@@ -389,7 +389,7 @@
                             </div>
                             <div class="info">
                                 <h3 class="name">Alfan Fathurohman</h3>
-                                <div class="title text-primary">ANALIS DIGITAL FORENSIK</div>
+                                <div class="title text-primary">ANALIS FORENSIK DIGITAL</div>
                                 <div class="social">
                                     <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                     <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
@@ -407,7 +407,7 @@
                             </div>
                             <div class="info">
                                 <h3 class="name">Roza Hidayat</h3>
-                                <div class="title text-primary">PRANATA KOMPUTER</div>
+                                <div class="title text-primary">PRANATA KOMPUTER AHLI PERTAMA</div>
                                 <div class="social">
                                     <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                     <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
