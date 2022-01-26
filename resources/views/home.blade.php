@@ -111,7 +111,7 @@
                 <p>
                     Sistem Informasi Layanan Persandian dan Keamanan Informasi “SILPaKAMI”
                     merupakan suatu Aplikasi layanan persandian dan keamanan informasi yang dimiliki
-                    oleh Bidang Persandian pada Dinas Komunikasi, Informatika, Persandian dan Statistik Kab.
+                    oleh Bidang Keamanan Informasi dan Persandian pada Dinas Komunikasi, Informatika, Persandian dan Statistik Kab.
                     Sumedang.<br />
                 </p>
 
@@ -136,7 +136,7 @@
                             <p>
                                 SILPaKAMI (Sistem Informasi Layanan Persandian dan Keamanan Infomasi) merupakan suatu
                                 aplikasi yang dipergunakan
-                                untuk membantu Bidang Persandian pada Diskominfosanditik Kabupaten Sumedang dalam
+                                untuk membantu Bidang Keamanan Informasi dan Persandian pada Diskominfosanditik Kabupaten Sumedang dalam
                                 mengelola, memberikan layanan persandian dan
                                 keamanan informasi bagi Perangkat Daerah Di Lingkungan Pemerintah Kabupaten Sumedang.
                             </p>
@@ -170,7 +170,7 @@
                                 </div>
                                 <div class="info">
                                     Mamat Rohimat
-                                    <small>Kepala Bidang Persandian</small>
+                                    <small>Kepala Bidang Keamanan Informasi dan Persandian</small>
                                 </div>
                             </div>
                         </div>
@@ -276,7 +276,7 @@
         <div id="team" class="content" data-scrollview="true">
 
             <div class="container">
-                <h2 class="content-title">Tim Bidang Persandian</h2>
+                <h2 class="content-title">Tim Bidang Keamanan Informasi Persandian</h2>
 
                 <div class="row mb-5">
                     <div class="col-lg-12 text-center">
@@ -287,7 +287,7 @@
                             </div>
                             <div class="info">
                                 <h3 class="name">Mamat Rohimat</h3>
-                                <div class="title text-primary">KEPALA BIDANG PERSANDIAN</div>
+                                <div class="title text-primary">KEPALA BIDANG KEAMANAN INFORMASI DAN PERSANDIAN</div>
                                 <div class="social">
                                     <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                     <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
@@ -430,7 +430,7 @@
                             </div>
                             <div class="info">
                                 <h3 class="name">Herry Rohaeli</h3>
-                                <div class="title text-primary">PELAKSANA BIDANG PERSANDIAN</div>
+                                <div class="title text-primary">PELAKSANA BIDANG KEAMANAN INFORMASI DAN PERSANDIAN</div>
                                 <div class="social">
                                     <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                     <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
@@ -448,7 +448,7 @@
                             </div>
                             <div class="info">
                                 <h3 class="name">Wawan</h3>
-                                <div class="title text-primary">PELAKSANA BIDANG PERSANDIAN</div>
+                                <div class="title text-primary">PELAKSANA BIDANG KEAMANAN INFORMASI DAN PERSANDIAN</div>
                                 <div class="social">
                                     <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                     <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
@@ -466,7 +466,7 @@
                             </div>
                             <div class="info">
                                 <h3 class="name">Yeri Siti Jamilah</h3>
-                                <div class="title text-primary">PELAKSANA BIDANG PERSANDIAN</div>
+                                <div class="title text-primary">PELAKSANA BIDANG KEAMANAN INFORMASI DAN PERSANDIAN</div>
                                 <div class="social">
                                     <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                     <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
@@ -806,7 +806,7 @@
                         <p>
                             <strong>Kantor Dinas Komunikasi, Informatika, Persandian dan Statistik Kab.
                                 Sumedang</strong><br />
-                            Lt. 2 Bidang Persandian<br />
+                            Lt. 2 Bidang Keamanan Informasi dan Persandian<br />
                             Jl. Angkrek No. 103 Sumedang<br />
                             Telp: (0261) 201225<br /> <br />
                             Jadwal Pelayanan : <br />
@@ -867,7 +867,6 @@
                     SILPaKAMI
                 </div>
                 <p>
-                    &copy; Copyright Bidang Persandian, Diskominfosanditik Kab. Sumedang 2021 <br />
                     version 2.0
                 </p>
 
