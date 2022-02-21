@@ -103,7 +103,9 @@ class adminSertifikatController extends Controller
 
     public function getDataPublished()
     {
-        $pengajuan = Pengajuan_se::where('stat', '>=', '5')->get();
+        $pengajuan = Pengajuan_se::where('stat', '>=', '5')
+        ->orderBy('created_at','desc')
+        ->get();
         $pengajuan->map(function ($row) {
             $user = User::where('id', $row->user_id)->first();
             $instansi = Instansi::where('id', $user->instansi_id)->first();
