@@ -120,10 +120,10 @@
           <h4>Ikuti Langkah Berikut</h4>
           <p>1. Buat Surat Rekomendasi pengajuan Sertifikat Elektronik melalui e-office ditujukan ke Diskominfosanditik
           </p>
-          <p> - Contoh Surat Rekomendasi Untuk 1 Orang<a href="/file/Surat Rekomendasi 1 Orang.doc">
+          <p> - Contoh Surat Rekomendasi Untuk 1 Orang<a href="/file/Surat Rekomendasi 1 Orang.docx">
               [Download Dokumen]</a></p>
           <p> - Contoh Surat Rekomendasi Untuk 2 Orang atau Lebih<a
-              href="/file/Surat Rekomendasi 2 Orang Atau Lebih.doc">
+              href="/file/Surat Rekomendasi 2 Orang Atau Lebih.docx">
               [Download Dokumen]</a></p>
           <p>2. Download Surat yang telah di tandatangani oleh kepala SKPD </p>
           <p>3. Lengkapi form berikut dan upload surat yang telah di download </p>

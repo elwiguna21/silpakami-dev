@@ -267,6 +267,7 @@
     dropZoneEnabled: false,
     previewFileType: ["pdf"],
     allowedFileExtensions: ["pdf"],
+    maxFileSize: 2000,
     layoutTemplates: {
       main1: "{preview}\n" +
         "<div class=\'input-group {class}\'>\n" +
